@@ -1,0 +1,238 @@
+body {
+    animation: bg-color 15s infinite;
+    transition: background-color 10s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes bg-color {
+    20% {
+        background-color: #f6f4e9;
+    }
+
+    10% {
+        background-color: rgb(205, 204, 204)bf;
+    }
+}
+
+#feedback {
+    font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+    background: #e68565;
+}
+
+#selectable .ui-selected {
+    background: #EF5523;
+    color: black;
+}
+
+#header {
+    background-color: #efe5bf;
+    height: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+#header img {
+    margin-left: 50%;
+}
+
+#logo {
+    left: 45%;
+    right: 45%;
+    margin-left: 1%;
+}
+
+#tags {
+    position: absolute;
+    left: 37%;
+    right: 37%;
+    margin-top: 0.5%;
+    width: 27%;
+    height: 20px;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+}
+
+#menu {
+    margin: 0;
+    margin-top: 0.1%;
+    display: flex;
+    color: white;
+    background-color: black;
+    font-size: 1.2em;
+    padding: 0.4%;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.submenu {
+    display: contents;
+    color: rgb(182, 182, 182);
+}
+
+.submenu2 {
+    display: flex;
+}
+
+#menuproductos {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.titulo {
+    font-weight: lighter;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    border-bottom: 1px solid black;
+    width: 20%;
+}
+
+.subtitulo {
+    font-weight: lighter;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 15.5%;
+    margin-top: 1.5%;
+    font-size: 1.3em;
+}
+
+#selectable {
+    display: flex;
+    width: 76%;
+    padding-left: 24%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#selectable li {
+    margin-right: 3%;
+}
+
+.categories {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+    background-color: #f1eee2;
+    cursor: pointer;
+}
+
+#productos {
+    flex-wrap: wrap;
+    margin-left: 41%;
+    margin-top: 2%;
+    display: flex;
+    width: 20%;
+    height: 550px;
+    overflow: auto;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+#productos label {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#productos input {
+    margin: 5%;
+    width: 60%;
+    height: 4%;
+}
+
+#error {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 42%;
+    height: 10%;
+    font-size: 1.2em;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: #efe5bf;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#atras{
+    width: 100%;
+    height: 45%;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: #efe5bf;
+    transition: background-color 0.2s ease-in-out; 
+    margin-left: 234%; 
+}
+
+button:active {
+    background-color: #d9c29c;
+}
+
+h1 {
+    font-size: 3.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.producto {
+    margin-left: 6%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#footer {
+    width: 100%;
+    background-color: black;
+}
+
+#iconos {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#iconos {
+    cursor: pointer;
+}
+
+#contenedor {
+    margin-left: 22%;
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+    border-bottom: 1px solid white;
+}
+
+#logo_footer {
+    margin-top: 14%;
+}
+
+#footer p {
+    color: rgb(233, 233, 181);
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.titol_footer {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+li {
+    list-style: none;
+}
